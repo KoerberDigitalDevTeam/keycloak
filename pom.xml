@@ -1521,6 +1521,7 @@
                         <forkMode>once</forkMode>
                         <argLine>${surefire.memory.settings}</argLine>
                         <argLine>-Djava.awt.headless=true</argLine>
+                        <useSystemClassLoader>false</useSystemClassLoader>
                     </configuration>
                 </plugin>
                 <plugin>
